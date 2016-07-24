@@ -6,7 +6,10 @@ fractions_opretions.py
 from fractions import Fraction
 
 def add(a, b):
-    print('Resultof Addition: {0}'.format(a, b, a+b))
+    print('Result of adding {0} and {1} is {2}'.format(a, b, a+b))
+
+def substract(a, b):
+    print('Result of Subtract: {0}'.format(a, b, a-b))
 
 
 if __name__ == '__main__':
